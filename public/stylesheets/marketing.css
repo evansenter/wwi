@@ -160,7 +160,7 @@ a.pure-button-primary {
     font-weight: bold;
     color: white;
     border: 3px solid white;
-    padding: 1em 1.6em;
+    padding: .75em .75em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
@@ -277,6 +277,6 @@ a.pure-button-primary {
 @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
-        font-size: 300%;
+        font-size: 250%;
     }
 }
