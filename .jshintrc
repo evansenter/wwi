@@ -1,0 +1,27 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": true,
+  "mocha": true,
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "node": true,
+  "nonbsp": true,
+  "nonew": true,
+  "proto": true,
+  "quotmark": "double",
+  "strict": true,
+  "undef": true,
+  "globals": {
+    "_": true,
+    "ap": true,
+    "basedir": true,
+    "io": true,
+    "window": true
+  }
+}
