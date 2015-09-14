@@ -22,6 +22,7 @@
     "ap": true,
     "basedir": true,
     "io": true,
-    "window": true
+    "window": true,
+    "$": true
   }
 }
