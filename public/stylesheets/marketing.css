@@ -106,23 +106,31 @@ a.pure-button-primary {
 }
 
 .home-menu .pure-menu-heading {
-    color: white;
+    color: rgba(0, 0, 0, 0);
     font-weight: 200;
     font-size: 120%;
+    background-image: url(/images/wwi_logo_light_long.svg);
+    background-repeat: no-repeat;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
 }
 
-.home-menu .pure-menu-selected a {
+.home-menu .pure-menu-selected a, .home-menu .pure-menu-selected a:visited {
     color: white;
 }
 
-.home-menu a {
+.home-menu a, .home-menu a:visited {
     color: #6FBEF3;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: #AECFE5;
+    color: #AECFE5 !important;
 }
 
 
