@@ -173,6 +173,7 @@ a.pure-button-primary {
 .splash-head {
     font-size: 20px;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, .5);
     color: white;
     border: 3px solid white;
     padding: .75em .75em;
